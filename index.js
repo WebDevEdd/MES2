@@ -1,7 +1,7 @@
-import * as THREE from './node_modules/three';
-import { OBJLoader } from './node_modules/three/examples/jsm/loaders/OBJLoader';
-import { MTLLoader } from './node_modules/three/examples/jsm/loaders/MTLLoader';
-import { OrbitControls } from './node_modules/three/examples/jsm/controls/OrbitControls';
+import * as THREE from 'three';
+import { OBJLoader } from 'three/addons/loaders/OBJLoader.js';
+import { MTLLoader } from 'three/addons/loaders/MTLLoader.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 
 
