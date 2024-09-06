@@ -2,11 +2,15 @@
   "name": "mes2",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://webdevedd.github.io/MES2/",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview --port 8080"
+    "serve": "vite preview --port 8080",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +19,7 @@
     "three": "^0.168.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "vite": "^5.4.3"
   }
 }
